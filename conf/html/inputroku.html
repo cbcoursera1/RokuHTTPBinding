@@ -1,0 +1,31 @@
+<!--
+
+	With major help from villaRob@OpenHAB community
+	
+	https://community.openhab.org/t/input-field-for-number-free-text-for-openhab-uis/12461
+
+-->
+
+<html>
+<script language="JavaScript">
+	val openhabIP = "192.168.1.99"
+    function resetInput(id)
+    {
+        document.getElementById(id).value = ""
+    }
+    function httpGetAsync(theUrl)
+    {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+        xmlHttp.send(null);
+    }
+    function sendValue() {
+            url = "http://" + openhabIP + ":8080/classicui/CMD?Roku=" + document.getElementById('textInput').value
+            httpGetAsync(url)
+            resetInput('textInput')
+    }
+</script>
+<form onSubmit="return false">
+    <input name="textInput" id="textInput" type="text" onChange="sendValue()">
+</form>
+</html>

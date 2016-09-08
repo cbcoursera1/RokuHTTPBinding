@@ -1,0 +1,8 @@
+/*		Int Name			"Ext Name"				<icon>			(Parent)							{ channel="" }	*/
+
+/*
+ * 					MANUAL BINDINGS
+ */
+
+String	Roku				"Roku"
+String	Roku_active_app		"Roku Active App"		<video>												{ http="<[http://RokuIP:8060/query/active-app:1000:XSLT(roku-appname.xsl)]" }

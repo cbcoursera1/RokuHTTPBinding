@@ -1,0 +1,4 @@
+sitemap	home	label="RokuHTTP" {
+	Text		item=Roku_active_app				label="Roku - [%s]"	
+	Webview		url="http://OpenHABIP:8080/static/input.html?item=Roku" height=3
+}		
