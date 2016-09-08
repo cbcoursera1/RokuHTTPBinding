@@ -6,7 +6,7 @@ This binding provides basic keypresses and simple automation for the Roku API.
 * Autosearch
 ** Custom implementation of automated search for given terms
 * Keypresses
-** Accepts all key names defined in the Roku API
+** Accepts all key names defined in the [Roku API]("https://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide#ExternalControlGuide-KeypressKeyValues")
 ** Accepts ASCII characters (not space yet)
 * Channel Install and Launch
 ** Accepts "launch [channel id]" and "install [channel id]"
@@ -38,7 +38,9 @@ IP addresses for OpenHab and Roku must be entered manually in each configuration
 Handles spaces but no special characters
 Thread::sleep is used to wait for the Roku interface to catch up - if you have faster or slower model than Roku 2 (original), you should test changing these
 Webview command box compatability
+```
 * BasicUI/Windows							compatible
 * BasicUI/Android							compatible
 * HABDroid/Android							incompatible (HABDroid closes keyboard)
 * The rest									unknown
+```
