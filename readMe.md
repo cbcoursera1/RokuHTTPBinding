@@ -4,15 +4,15 @@ This binding provides basic keypresses and simple automation for the Roku API.
 
 ## Functionality
 * Autosearch
-** Custom implementation of automated search for given terms
+	* Custom implementation of automated search for given terms
 * Keypresses
-** Accepts all key names defined in the [Roku API]("https://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide#ExternalControlGuide-KeypressKeyValues")
-** Accepts ASCII characters (not space yet)
+	* Accepts all key names defined in the [Roku API](https://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide#ExternalControlGuide-KeypressKeyValues)
+	* Accepts ASCII characters (not space yet)
 * Channel Install and Launch
-** Accepts "launch [channel id]" and "install [channel id]"
+	* Accepts "launch [channel id]" and "install [channel id]"
 * Sitemap
-** Entry for Roku with current Channel indication
-** Webview of command box for directly passing commands
+	* Entry for Roku with current Channel indication
+	* Webview of command box for directly passing commands
 
 ## The binding is composed of
 * 2 Item registers
@@ -35,8 +35,11 @@ in Sitemap
 
 ## Notes
 IP addresses for OpenHab and Roku must be entered manually in each configuration file
+
 Handles spaces but no special characters
+
 Thread::sleep is used to wait for the Roku interface to catch up - if you have faster or slower model than Roku 2 (original), you should test changing these
+
 Webview command box compatability
 ```
 * BasicUI/Windows							compatible
