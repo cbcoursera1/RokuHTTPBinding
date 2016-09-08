@@ -35,7 +35,9 @@ in Sitemap
 ```
 
 ## Notes
-*IP addresses for OpenHab and Roku must be entered manually in each configuration file*
+**IP addresses for OpenHab and Roku must be entered manually in each configuration file**
+
+Roku must be set to a static IP. There are other tools available that may help you get your Roku's IP dynamically.
 
 Handles spaces but no special characters
 
