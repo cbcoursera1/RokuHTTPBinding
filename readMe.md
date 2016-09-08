@@ -9,7 +9,7 @@ This binding provides basic keypresses and simple automation for the Roku API.
 	* Accepts all key names defined in the [Roku API](https://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide#ExternalControlGuide-KeypressKeyValues)
 	* Accepts ASCII characters (not space yet)
 * Channel Install and Launch
-	* Accepts 'launch [channel id]' and 'install [channel id]'
+	* Accepts `launch [channel id]` and `install [channel id]`
 * Sitemap
 	* Entry for Roku with current Channel indication
 	* Webview of command box for directly passing commands
