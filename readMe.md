@@ -17,6 +17,7 @@ This binding provides basic keypresses and simple automation for the Roku API.
 ## The binding is composed of
 * 2 Item registers
 * 2 Sitemap entries
+* 1 Rule
 * 1 XSLT transformation
 * 1 static HTML page 
 
